@@ -1,3 +1,28 @@
+// MIXIN // 
+@mixin flex {
+    display : flex;
+  justify-content: space-evenly; 
+}
+
+// EXTEND //
+
+%botones{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder ;
+    color: black;
+    letter-spacing: 2px;
+    border: black;
+    border-style: double;
+    border-radius: 2px solid;
+    position: relative;
+    background-color: white;
+    justify-content: center;
+    padding: 1rem;
+    left: 0px;
+}
+
 // HEADER //
 
 header {
@@ -104,7 +129,6 @@ footer {
 
 
 
-
 // BOTONES //
 
 .volverInicio{
@@ -120,34 +144,6 @@ footer {
     font-size: 0.5rem;
     padding: 15px;
     bottom:40px;
-}
-
-// EXTEND //
-
-%botones{
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
-    font-weight: bolder ;
-    color: black;
-    letter-spacing: 2px;
-    border: black;
-    border-style: double;
-    border-radius: 2px solid;
-    position: relative;
-    background-color: white;
-    justify-content: center;
-    padding: 1rem;
-    left: 0px;
-}
-        
-
-
-// MIXIN //
-
-@mixin flex {
-    display : flex;
-  justify-content: space-evenly;
 }
 
 

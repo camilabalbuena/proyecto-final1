@@ -1,3 +1,19 @@
+.volverInicio, .botonTienda {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: black;
+  letter-spacing: 2px;
+  border: black;
+  border-style: double;
+  border-radius: 2px solid;
+  position: relative;
+  background-color: white;
+  justify-content: center;
+  padding: 1rem;
+  left: 0px; }
+
 header {
   margin-left: auto;
   margin-right: auto;
@@ -20,20 +36,23 @@ header {
 
 nav {
   margin: 1rem; }
-  nav ul li {
-    list-style: none;
-    padding: 0.5rem;
-    border: black;
-    border-style: double;
-    border-radius: solid; }
-    nav ul li a {
-      text-decoration: none;
-      font-family: 'Montserrat', sans-serif;
-      text-transform: uppercase;
-      font-weight: bolder;
-      font-size: 0.7rem;
-      color: black;
-      letter-spacing: 2px; }
+  nav ul {
+    display: flex;
+    justify-content: space-evenly; }
+    nav ul li {
+      list-style: none;
+      padding: 0.5rem;
+      border: black;
+      border-style: double;
+      border-radius: solid; }
+      nav ul li a {
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        font-weight: bolder;
+        font-size: 0.7rem;
+        color: black;
+        letter-spacing: 2px; }
 
 main {
   margin-bottom: 1rem;
@@ -84,22 +103,6 @@ footer {
   font-size: 0.5rem;
   padding: 15px;
   bottom: 40px; }
-
-.volverInicio, .botonTienda {
-  text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
-  text-transform: uppercase;
-  font-weight: bolder;
-  color: black;
-  letter-spacing: 2px;
-  border: black;
-  border-style: double;
-  border-radius: 2px solid;
-  position: relative;
-  background-color: white;
-  justify-content: center;
-  padding: 1rem;
-  left: 0px; }
 
 @media screen and (min-width: 1024px) {
   header {
