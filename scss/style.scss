@@ -27,7 +27,7 @@ header {
 
 nav {
     margin: 1rem; 
-ul {
+ul { @include flex;
  li {
     list-style: none;
             padding: 0.5rem;
@@ -144,6 +144,11 @@ footer {
 
 
 // MIXIN //
+
+@mixin flex {
+    display : flex;
+  justify-content: space-evenly;
+}
 
 
 // MEDIA QUERIES //
