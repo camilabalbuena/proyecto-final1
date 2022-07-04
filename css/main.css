@@ -1,0 +1,19 @@
+header {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  position: sticky;
+  top: 0%;
+  padding: 1rem 0.5rem 1rem 1rem;
+  z-index: 2; }
+  header h1 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    font-weight: 3rem;
+    font-size: 1.8rem;
+    letter-spacing: 0.4rem;
+    border-style: solid;
+    border-left: 0px;
+    border-right: 0px;
+    padding: 1.5rem; }
