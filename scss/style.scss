@@ -1,3 +1,9 @@
+// IMPORT //
+@import "utilities/variables";
+
+
+
+
 // MIXIN // 
 @mixin flex {
     display : flex;
@@ -75,7 +81,7 @@ ul { @include flex;
 // MAIN //
 main {
     margin-bottom: 1rem;
-    background-color: #f9f4c8;
+    background-color: $color-principal;
     padding: 5rem;
     align-items: center;
     p {
